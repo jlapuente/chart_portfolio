@@ -1,20 +1,22 @@
 <body>
+  <audio autoplay loop=>
+    <source src="assets\songs\SnapSave.io - Half life 2 Triage at Dawn (Extended) (320 kbps).mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
   <div class="container">
     <div class="title">
       <h1>Some HL2RP Original Characters</h1>
     </div>
     <section>
       <img
-      src="assets\img\Miclox_adult_woman_in_her_40s_skinny_wearing_a_black_jacket_bla_41e5acf3-b22e-4532-bcd0-7b9c4c901038.png"
-      alt="">
+        src="assets\img\Miclox_adult_woman_in_her_40s_skinny_wearing_a_black_jacket_bla_41e5acf3-b22e-4532-bcd0-7b9c4c901038.png"
+        alt="">
       <img
-      src="assets\img\Miclox_young_men_in_her_20s_skinny_wearing_a_red_jacket_blonde__9705ba25-3901-4a2c-a6be-84314b06c73b.png"
-      alt="">
-      
-      <img
-      src="assets\img\DavidAlcala_portrait_of_a_rat_with_a_knife_9906eaeb-b532-441b-987c-7a99889960f0.png"
-      alt="">
-      
+        src="assets\img\Miclox_young_men_in_her_20s_skinny_wearing_a_red_jacket_blonde__9705ba25-3901-4a2c-a6be-84314b06c73b.png"
+        alt="">
+
+      <img src="assets\img\DavidAlcala_portrait_of_a_rat_with_a_knife_9906eaeb-b532-441b-987c-7a99889960f0.png" alt="">
+
     </section>
     <div class="subtitle">
       <h2>
@@ -24,6 +26,31 @@
   </div>
 
   <div class="char-description hidden">
+    <div class="row">
 
+      <div class="profile">
+        <img
+          src="assets\img\Miclox_adult_woman_in_her_40s_skinny_wearing_a_black_jacket_bla_41e5acf3-b22e-4532-bcd0-7b9c4c901038.png"
+          alt="">
+      </div>
+      <div class="bio">
+        <h1>{{selectedChar.name}}</h1>
+        <p>{{selectedChar.introduction}}</p>
+        <div *ngFor="let stat of selectedChar.stats">
+          <span><span class="stat-title">{{stat.tittle}}</span>: {{stat.body}}</span>
+        </div>
+      </div>
+    </div>
+    <div id="faq">
+      <h1>Datos del personaje</h1>
+      <ul>
+        <li *ngFor="let section of selectedChar.sections">
+          <input type="checkbox" checked>
+          <i></i>
+          <h2>{{section.title}}</h2>
+          <p>{{section.body}}</p>
+        </li>
+      </ul>
+    </div>
   </div>
 </body>

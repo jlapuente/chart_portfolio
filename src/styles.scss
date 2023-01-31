@@ -3,6 +3,10 @@
   src: url("assets/fonts/Roboto/Roboto-Regular.ttf");
 }
 
+* {
+  font-family: Roboto;
+}
+
 html,
 body {
   min-height: 100%;

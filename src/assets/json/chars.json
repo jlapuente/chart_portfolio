@@ -1,0 +1,48 @@
+[
+  {
+    "id": "0",
+    "name": "Serena Meloni Caretta",
+    "stats": [
+      {
+        "tittle": "Fecha de nacimiento",
+        "body": "28/12/1972"
+      },
+      {
+        "tittle": "Lugar de nacimiento",
+        "body": "Arezzo, Italia"
+      },
+      {
+        "tittle": "CID",
+        "body": "#23794"
+      },
+      {
+        "tittle": "Ubicación actual",
+        "body": "C24 - Ginebra"
+      },
+      {
+        "tittle": "Educación",
+        "body": "Diseño y Moda"
+      },
+      {
+        "tittle": "Ocupación actual",
+        "body": "Regente del Emporio de la Moda de C24"
+      }
+    ],
+    "introduction": "Serena Meloni, la migliore sarta d'Italia. Dicono che gli angeli sono le creature più belle del mondo. Allora devo essere fortunato perché ho trovato uno. Siamo così lontani ma i nostri cuori sono sempre insieme",
+    "sections": [
+      {
+        "title": "Lore",
+        "body": "Nació en una familia monomarental pero acomodada en Italia, en un municipio de no más de 100.000 habitantes de la provincia de Arezzo, en Italia. De adolescente su carácter a veces frío le jugó malas asadas impidiendole fraguar buenas y duraderas amistades. No obstante, años más tarde viajó a Milán para estudiar en la IUAD-Accademia-della-Moda donde conoció a Francesco quien sería su romance de la juventud y quien le ayudó a abrirse aún más al mundo.Finalmente logró graduarse en dicha universidad convirtiéndose oficialmente en sastre. Titulada y enamorada, volvió junto a Francesco a su ciudad natal, donde se instalaron y montaron una humilde sastrería, formando un dúo perfecto.Su madre ya mayor murió un par de años más tarde, dejando toda su herencia a su única hija.La sastrería iba viento en popa, servían a gran parte de su barrio y ganaban suficiente dinero para llevar una buena vida, laboriosa, pero buena a fin de cuentas. Unos meses antes de la guerra, Selena despertó con una llamada de los bomberos; la sastrería había ardido durante una noche en la que su marido se había quedado trabajando de noche. Al parecer una colilla y el sueño le jugaron una mala pasada.Tras varias relocalizaciones llegó a Ciudad 24 algunos días antes de que la gran oleada de refugiados de Terminal 6 llegará a ella. Estos días le permitieron unos días de paz y tranquilidad en la ciudad, lo que le permitió pensar con claridad y eso le llevó a retomar las agujas después de años sin tocarlas."
+      },
+      {
+        "title": "Gustos y animadversiones ",
+        "body": "Sint voluptate consequat sint mollit pariatur excepteur est. Mollit duis esse velit commodo ullamco. Incididunt ea incididunt sit minim do consequat et ullamco commodo. Sunt esse esse enim sit anim amet labore pariatur commodo voluptate. Incididunt deserunt eiusmod laborum qui elit voluptate enim aliqua commodo non commodo elit. Laboris consectetur laboris mollit irure culpa cupidatat aute qui qui enim fugiat pariatur consequat do."
+      }
+    ],
+    "footnotes": [
+      {
+        "content": "Nisi voluptate amet laboris in mollit sunt ad velit amet excepteur labore occaecat nostrud qui. Exercitation consequat commodo Lorem laborum proident et Lorem. Sunt magna ea cillum dolore quis occaecat exercitation ut fugiat culpa mollit commodo aliquip mollit."
+      }
+    ]
+  }
+]

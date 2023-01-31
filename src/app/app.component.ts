@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import chars from '../assets/json/chars.json';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,8 @@ export class AppComponent implements OnInit {
   title = 'chart_portfolio';
 
   isOpen: boolean = false;
+
+  selectedChar: any = chars[0];
 
   ngOnInit(): void {
     document.addEventListener("keydown", (e: KeyboardEvent) => {
@@ -32,6 +35,7 @@ export class AppComponent implements OnInit {
     if (element != null) {
       element.classList.add('animate__animated', 'animate__backOutUp');
       element.addEventListener('animationend', () => {
+        element.classList.add('hidden');
         console.log("animacion acabada")
         const charDescription = document.querySelector('.char-description');
         if(charDescription != null){

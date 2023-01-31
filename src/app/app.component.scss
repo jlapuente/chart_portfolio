@@ -1,0 +1,71 @@
+section {
+  display: flex;
+  width: 600px;
+  height: 430px;
+  margin: auto;
+}
+
+section img {
+  width: 0px;
+  flex-grow: 1;
+  opacity: .8;
+  object-fit: cover;
+  transition: .5s ease;
+}
+
+section img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(110%);
+}
+
+body {
+  // background-color: #1C1B22;
+  // background-image: url('../assets/img/half-life-valve-corporation-gordon-man-half-life-2-wallpaper-preview.jpg');
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+
+
+}
+
+.container {
+  width: 80%;
+  min-height: 100%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.title h1 {
+  color: white;
+  font-family: Roboto;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.subtitle h2 {
+  color: white;
+  font-family: Roboto;
+}
+
+.char-description {
+  width: 80%;
+  min-height: 100%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hidden {
+  display: none;
+}

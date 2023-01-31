@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+html,
+body {
+  min-height: 100%;
+  height: auto;
+  margin: 0;
+  background-color: black;
+    // background-image: url('assets/img/half-life-valve-corporation-gordon-man-half-life-2-wallpaper-preview.jpg');
+    // background-size: cover;
+    // background-repeat: no-repeat;
+}

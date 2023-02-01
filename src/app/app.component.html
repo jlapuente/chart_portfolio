@@ -36,8 +36,33 @@
       <div class="bio">
         <h1>{{selectedChar.name}}</h1>
         <p>{{selectedChar.introduction}}</p>
-        <div *ngFor="let stat of selectedChar.stats">
-          <span><span class="stat-title">{{stat.tittle}}</span>: {{stat.body}}</span>
+        <div class="row">
+          <div class="stats-container">
+            <h1 class="section-title">Datos básicos</h1>
+            <div *ngFor="let stat of selectedChar.stats">
+              <span><span class="stat-title">{{stat.tittle}}</span>: {{stat.body}}</span>
+            </div>
+          </div>
+          <div class="skills-container">
+            <h1 class="section-title">Habilidades</h1>
+            <div class="skills"> <!-- create a div -->
+              <li>
+                <h3>Manufacturación</h3><span class="bar"><span class="html"></span></span> <!-- skill bar 1 -->
+              </li>
+
+              <li>
+                <h3>Medicina</h3><span class="bar"><span class="css"></span></span><!-- skill bar 2 -->
+              </li>
+
+              <li>
+                <h3>Costura</h3><span class="bar"><span class="javascript"></span></span><!-- skill bar 3 -->
+              </li>
+
+              <li>
+                <h3>Cocina</h3><span class="bar"><span class="jquery"></span></span><!-- skill bar 4 -->
+              </li>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -48,7 +73,7 @@
           <input type="checkbox" checked>
           <i></i>
           <h2>{{section.title}}</h2>
-          <p>{{section.body}}</p>
+          <p [innerHTML]="section.body"></p>
         </li>
       </ul>
     </div>

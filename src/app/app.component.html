@@ -10,13 +10,12 @@
     <section>
       <img
         src="assets\img\Miclox_adult_woman_in_her_40s_skinny_wearing_a_black_jacket_bla_41e5acf3-b22e-4532-bcd0-7b9c4c901038.png"
-        alt="">
+        alt="" (mouseover)="changeId(0)">
       <img
         src="assets\img\Miclox_young_men_in_her_20s_skinny_wearing_a_red_jacket_blonde__9705ba25-3901-4a2c-a6be-84314b06c73b.png"
-        alt="">
-
-      <img src="assets\img\DavidAlcala_portrait_of_a_rat_with_a_knife_9906eaeb-b532-441b-987c-7a99889960f0.png" alt="">
-
+        alt="" (mouseover)="changeId(1)">
+      <img src="assets\img\DavidAlcala_portrait_of_a_rat_with_a_knife_9906eaeb-b532-441b-987c-7a99889960f0.png" alt=""
+        (mouseover)="changeId(2)">
     </section>
     <div class="subtitle">
       <h2>
@@ -27,7 +26,13 @@
 
   <div class="char-description hidden">
     <div class="row">
-
+      <p id="datapad-container">DATAPAD
+        <br>
+        <span id="first-cube"> ■ </span><span id="second-cube"> ■■ </span><span id="last-cubes">■■■■■■</span>
+      </p>
+      <div class="close" (click)="back()"></div>
+    </div>
+    <div class="row">
       <div class="profile">
         <img
           src="assets\img\Miclox_adult_woman_in_her_40s_skinny_wearing_a_black_jacket_bla_41e5acf3-b22e-4532-bcd0-7b9c4c901038.png"
@@ -46,20 +51,9 @@
           <div class="skills-container">
             <h1 class="section-title">Habilidades</h1>
             <div class="skills"> <!-- create a div -->
-              <li>
-                <h3>Manufacturación</h3><span class="bar"><span class="html"></span></span> <!-- skill bar 1 -->
-              </li>
-
-              <li>
-                <h3>Medicina</h3><span class="bar"><span class="css"></span></span><!-- skill bar 2 -->
-              </li>
-
-              <li>
-                <h3>Costura</h3><span class="bar"><span class="javascript"></span></span><!-- skill bar 3 -->
-              </li>
-
-              <li>
-                <h3>Cocina</h3><span class="bar"><span class="jquery"></span></span><!-- skill bar 4 -->
+              <li *ngFor="let skill of selectedChar.skills">
+                <h3>{{skill.name}}</h3><span class="bar"><span [ngClass]="skill.class"></span></span>
+                <!-- skill bar 1 -->
               </li>
             </div>
           </div>

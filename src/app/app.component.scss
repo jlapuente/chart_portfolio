@@ -52,6 +52,7 @@ body {
 .title h1 {
   color: white;
   font-family: Roboto;
+  padding-top: 2%
 }
 
 .subtitle {
@@ -62,6 +63,7 @@ body {
 .subtitle h2 {
   color: white;
   font-family: Roboto;
+  padding-bottom: 2%;
 }
 
 .char-description {
@@ -207,7 +209,6 @@ ul li i:after {
   line-height: 1.45;
   position: relative;
   overflow: hidden;
-  max-height: 250px;
   will-change: max-height;
   contain: layout;
   display: inline-block;
@@ -359,6 +360,37 @@ ul li i:after {
   width: 75%;
   animation: electronica 2s;
 }
+
+.fuerza {
+  /*set skills and animation of jquery*/
+  width: 70%;
+  animation: fuerza 2s;
+}
+
+.velocidad {
+  /*set skills and animation of jquery*/
+  width: 90%;
+  animation: velocidad 2s;
+}
+
+.olfato {
+  /*set skills and animation of jquery*/
+  width: 60%;
+  animation: olfato 2s;
+}
+
+.vision {
+  /*set skills and animation of jquery*/
+  width: 50%;
+  animation: vision 2s;
+}
+
+.inteligencia {
+  /*set skills and animation of jquery*/
+  width: 30%;
+  animation: inteligencia 2s;
+}
+
 
 @keyframes html {
 

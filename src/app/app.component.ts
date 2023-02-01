@@ -49,7 +49,6 @@ export class AppComponent implements OnInit {
 
   back() {
     this.isOpen = !this.isOpen;
-    this.selectedChar = chars[0];
     const charDescription = document.querySelector('.char-description');
     if (charDescription != null) {
       charDescription.classList.add('animate__animated', 'animate__backOutUp');
@@ -65,7 +64,4 @@ export class AppComponent implements OnInit {
     }
   }
 
-  changeBack = function () {
-
-  }
 }

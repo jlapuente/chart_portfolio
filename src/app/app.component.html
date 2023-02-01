@@ -10,12 +10,12 @@
     <section>
       <img
         src="assets\img\Miclox_adult_woman_in_her_40s_skinny_wearing_a_black_jacket_bla_41e5acf3-b22e-4532-bcd0-7b9c4c901038.png"
-        alt="" (mouseover)="changeId(0)">
+        alt="" (mouseover)="changeId(0)" (click)="changeMenu()">
       <img
         src="assets\img\Miclox_young_men_in_her_20s_skinny_wearing_a_red_jacket_blonde__9705ba25-3901-4a2c-a6be-84314b06c73b.png"
-        alt="" (mouseover)="changeId(1)">
+        alt="" (mouseover)="changeId(1)" (click)="changeMenu()">
       <img src="assets\img\DavidAlcala_portrait_of_a_rat_with_a_knife_9906eaeb-b532-441b-987c-7a99889960f0.png" alt=""
-        (mouseover)="changeId(2)">
+        (mouseover)="changeId(2)" (click)="changeMenu()">
     </section>
     <div class="subtitle">
       <h2>
@@ -35,7 +35,7 @@
     <div class="row">
       <div class="profile">
         <img
-          src="assets\img\Miclox_adult_woman_in_her_40s_skinny_wearing_a_black_jacket_bla_41e5acf3-b22e-4532-bcd0-7b9c4c901038.png"
+          [src]="selectedChar.img"
           alt="">
       </div>
       <div class="bio">

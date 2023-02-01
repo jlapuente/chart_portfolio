@@ -11,7 +11,7 @@ Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Deploy 
-For publishing it in github-pages just run ng build --prod --deploy-url=https://jlapuente.github.io/chart_portfolio/ --base-href=https://jlapuente.github.io/chart_portfolio/
+For publishing it in github-pages just run ng build --configuration production --deploy-url=https://jlapuente.github.io/chart_portfolio/ --base-href=https://jlapuente.github.io/chart_portfolio/
 
 ## Code scaffolding
 

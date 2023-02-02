@@ -51,9 +51,19 @@
       {"name": "Cocina", "class": "cocina"},
       {"name": "Manufacturación", "class": "manufacturacion"}
     ],
-    "relaciones": [
-      {"name": "Costura", "img": "costura", "relation": "bad", "description": "por tonto"},
-      {"name": "Manufacturación", "img": "manufacturacion"}
+    "relations": [
+      {"name": "Dongpo", "img": "assets/img/relations/dongpo.png", "relation": "bad", "description": "A Serena algo no le huele bien de este hombre. Está siempre en todos lados y siente que estafa a la gente."},
+      {"name": "Arthur Wells", "img": "assets/img/relations/image3.png", "relation": "bad", "description": "Un unión que siempre ha sido agradable con ella."},
+      {"name": "Kim Jung-Su", "img": "assets/img/relations/kim.png", "relation": "bad","description": "Vecino de local. Comparte bastante la forma de pensar de Serena sobre algunas cosas de la ciudad. Es de confianza."},
+      {"name": "Valeria Fontana", "img": "assets/img/relations/image3.png", "relation": "bad", "description": "Desde que la conoció se han llevado genial. Descubrir que eran de la misma tierra las unió desde el principio."},
+      {"name": "Uno", "img": "assets/img/relations/uno.png", "relation": "bad", "description": "Si hay una agente que le ha hecho caso es Uno. Parece ser de las pocas agentes en quien puede confiar."},
+      {"name": "#378", "img": "assets/img/relations/378.png", "relation": "bad", "description": "Es el vort que trabaja donde Kim, es muy agradable con Serena siempre que va y parece que es un manitas. Serena estará atenta de sus capacidades"},
+      {"name": "Britniya Spearovska", "img": "assets/img/relations/britniya.png", "relation": "bad", "description": "Es una de las uniones que más le ha atendido, se han hecho favores mutuamente y eso al final ha creado una amistad."},
+      {"name": "GOLD-6", "img": "assets/img/relations/seis.png", "relation": "bad", "description": "Es una unidad que ha tratado siempre bastante bien a Serena, aunque a ella le cuesta reconocerle por el traje. Le suele hacer muchas preguntas"},
+      {"name": "Laurence Douglas Fink", "img": "assets/img/relations/laurence.png", "relation": "bad", "description": "Pocas veces alguien reconoce el trabajo de Serena en esta ciudad. Sin duda Laurence ha hecho sonrojar a la sastre"},
+      {"name": "Wilson Lawman", "img": "assets/img/relations/image3.png", "relation": "bad", "description": "A Serena algo no le huele bien de este hombre. Está siempre en todos lados y siente que estafa a la gente."},
+      {"name": "Sara Leon", "img": "assets/img/relations/image3.png", "relation": "bad", "description": "Es su compañera de piso. De momento parece agradable."}
+      
     ]
   },
   {
@@ -108,7 +118,7 @@
       {"name": "Cocina", "class": "cocina"},
       {"name": "Manufacturación", "class": "manufacturacion"}
     ],
-    "relaciones": [
+    "relations": [
       {"name": "Costura", "img": "costura"},
       {"name": "Manufacturación", "img": "manufacturacion"}
     ]
@@ -165,7 +175,7 @@
       {"name": "Vision", "class": "vision"},
       {"name": "Inteligencia", "class": "inteligencia"}
     ],
-    "relaciones": [
+    "relations": [
       {"name": "Costura", "img": "costura"},
       {"name": "Manufacturación", "img": "manufacturacion"}
     ]

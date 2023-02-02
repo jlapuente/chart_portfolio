@@ -144,6 +144,117 @@ body {
   font-weight: bold;
 }
 
+.card {
+  background: rgba(32, 127, 120, 0.6);
+  width: 30%;
+  margin: auto;
+  display: flex;
+}
+
+#relations {
+  margin: auto;
+  padding: 0 15px;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+#relations h1 {
+  margin-bottom: 30px;
+  color: #24F3E6;
+  border-bottom: 2px solid #24F3E6;
+  text-align: left;
+}
+
+#relations h2 {
+  font-weight: bold;
+  // font-family: 'hm_light', sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: left;
+  // padding: 15px 15px 0;
+  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1px;
+  display: block;
+  margin: 0;
+  cursor: crosshair;
+  transition: .2s;
+  margin-bottom: 0;
+}
+
+#relations p {
+  color: white;
+  text-align: left;
+  font-family: 'hm_light', sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  position: relative;
+  overflow: hidden;
+  will-change: max-height;
+  contain: layout;
+  opacity: 1;
+  transform: translate(0, 0);
+  padding: 0;
+  transition: .3s opacity, .6s max-height;
+  hyphens: auto;
+  z-index: 2;
+  margin: 0;
+}
+
+.profile-image {
+  min-width: 30%;
+  display: flex;
+}
+
+.profile-image img {
+  width: 100%;
+  margin: auto;
+}
+
+.profile-info {
+  width: 70%;
+}
+
+.profile-info {
+  margin-left: 1%;
+}
+
+.bad {
+  color: #fac51c
+}
+
+.dead {
+  color: #fac51c
+}
+
+.hate {
+  color: #fac51c
+}
+
+.stranger {
+  color: #fac51c
+}
+
+.non-stranger {
+  color: #fac51c
+}
+
+.friends {
+  color: #fac51c
+}
+
+.best-friends {
+  color: #fac51c
+}
+
+.mentor {
+  color: #fac51c
+}
+
+.love {
+  color: #fac51c
+}
+
 // Imported Styles
 
 #faq {
@@ -226,6 +337,7 @@ ul li i:after {
   perspective: 900;
   padding: 0;
   margin: 0;
+  margin-bottom: 2%;
 }
 
 #faq ul li {
@@ -274,7 +386,7 @@ ul li i:after {
 
 #faq ul li input[type=checkbox] {
   position: absolute;
-  cursor: pointer;
+  cursor: crosshair;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -443,10 +555,10 @@ ul li i:after {
 // Close
 
 .close {
-   margin-left: auto;
-   margin-right: 2%;
-   color: #24F3E6;
-   cursor: pointer;
+  margin-left: auto;
+  margin-right: 2%;
+  color: #24F3E6;
+  cursor: pointer;
 }
 
 .close:after {

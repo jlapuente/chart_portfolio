@@ -34,9 +34,7 @@
     </div>
     <div class="row">
       <div class="profile">
-        <img
-          [src]="selectedChar.img"
-          alt="">
+        <img [src]="selectedChar.img" alt="">
       </div>
       <div class="bio">
         <h1>{{selectedChar.name}}</h1>
@@ -70,6 +68,20 @@
           <p [innerHTML]="section.body"></p>
         </li>
       </ul>
+    </div>
+    <div id="relations">
+      <h1>Relaciones</h1>
+      <div class="row">
+        <div class="card" *ngFor="let relation of selectedChar.relations">
+          <div class="profile-image">
+            <img src="" alt="" [src]="relation.img">
+          </div>
+          <div class="profile-info">
+            <h2 [ngClass]="relation.relation">{{relation.name}}</h2>
+            <p [innerHTML]="relation.description"></p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>

@@ -71,7 +71,21 @@
     </div>
     <div id="relations">
       <h1>Relaciones</h1>
-      <div class="row">
+      <div class="row" id="relations-info">
+        <span class="love">AMA</span>
+        <span class="mentor">ADMIRA</span>
+        <span class="respect">RESPETA</span>
+        <span class="best-friends">MEJOR AMIGO</span>
+        <span class="friends">AMIGO</span>
+        <span class="non-stranger">CONOCIDO</span>
+        <span class="stranger">DESCONFÍA</span>
+        <span class="bad">CAE MAL</span>
+        <span class="hate">ODIA</span>
+        <span class="dead">MUERTO</span>
+
+      </div>
+      
+      <div id="card-row" class="row">
         <div class="card" *ngFor="let relation of selectedChar.relations">
           <div class="profile-image">
             <img src="" alt="" [src]="relation.img">

@@ -146,9 +146,11 @@ body {
 
 .card {
   background: rgba(32, 127, 120, 0.6);
-  width: 30%;
+  width: 100%;
   margin: auto;
   display: flex;
+  margin-bottom: 2%;
+  min-height: 90%;
 }
 
 #relations {
@@ -158,8 +160,13 @@ body {
   margin-bottom: 2%;
 }
 
+#card-row {
+  display: grid;
+  // grid-template-columns: auto auto auto;
+}
+
 #relations h1 {
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
   color: #24F3E6;
   border-bottom: 2px solid #24F3E6;
   text-align: left;
@@ -202,57 +209,122 @@ body {
 }
 
 .profile-image {
-  min-width: 30%;
+  // min-width: 100%;
+  max-width: 10%;
   display: flex;
 }
 
 .profile-image img {
   width: 100%;
-  margin: auto;
 }
 
 .profile-info {
-  width: 70%;
-}
-
-.profile-info {
+  // width: 70%;
   margin-left: 1%;
+  max-width: 90%;
 }
 
-.bad {
-  color: #fac51c
+span.dead {
+  background-color: #666666;
+  color: white;
 }
 
-.dead {
-  color: #fac51c
+h2.dead {
+  color: #666666;
 }
 
-.hate {
-  color: #fac51c
+span.hate {
+  background-color: #b8312f;
+  color: white;
 }
 
-.stranger {
-  color: #fac51c
+h2.hate {
+  color: #b8312f;
 }
 
-.non-stranger {
-  color: #fac51c
+span.bad {
+  background-color: #f37934;
+  color: white;
 }
 
-.friends {
-  color: #fac51c
+h2.bad {
+  color: #f37934;
 }
 
-.best-friends {
-  color: #fac51c
+span.stranger {
+  background-color: #fac51c;
+  color: white;
 }
 
-.mentor {
-  color: #fac51c
+h2.stranger {
+  color: #fac51c;
 }
 
-.love {
-  color: #fac51c
+h2.non-stranger {
+  color: #61bd6d;
+}
+
+span.non-stranger {
+  background-color: #61bd6d;
+  color: white;
+}
+
+h2.friends {
+  color: #00a885;
+}
+
+span.friends {
+  background-color: #00a885;
+  color: white;
+}
+
+span.best-friends {
+  background-color: #54acd2;
+  color: white;
+}
+
+h2.best-friends {
+  color: #54acd2;
+}
+
+span.respect {
+  background-color: #2969b0;
+  color: white;
+}
+
+h2.respect {
+  color: #2969b0;
+}
+
+span.mentor {
+  background-color: #553982;
+  color: white;
+}
+
+h2.mentor {
+  color: #553982;
+}
+
+span.love {
+  background-color: #9365b8;
+  color: white;
+}
+
+h2.love {
+  color: #9365b8;
+}
+
+#relations .row span {
+  margin: auto;
+  font-weight: bold;
+  padding: 1%;
+}
+
+#relations-info {
+  display: flex;
+  margin-bottom: 2%;
+  background-color: rgba(32, 127, 120, 0.6);
+  padding: 1%;
 }
 
 // Imported Styles

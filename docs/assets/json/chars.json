@@ -45,27 +45,106 @@
       }
     ],
     "skills": [
-      {"name": "Costura", "class": "costura"},
-      {"name": "Electrónica", "class": "electronica"},
-      {"name": "Química", "class": "quimica"},
-      {"name": "Cocina", "class": "cocina"},
-      {"name": "Manufacturación", "class": "manufacturacion"}
+      {
+        "name": "Costura",
+        "class": "costura"
+      },
+      {
+        "name": "Electrónica",
+        "class": "electronica"
+      },
+      {
+        "name": "Química",
+        "class": "quimica"
+      },
+      {
+        "name": "Cocina",
+        "class": "cocina"
+      },
+      {
+        "name": "Manufacturación",
+        "class": "manufacturacion"
+      }
     ],
     "relations": [
-      {"name": "Wilson Lawman", "img": "assets/img/relations/wilson.jpg", "relation": "best-friends", "description": "Al final su relación era la de un unión - ciudadana / propietaria mas, pero poco a poco se fue forjando una calida relación de cercania. Es de las pocas personas que estuvo en la etapa mas oscura de Serena en C24. Le ayudó con la 'reconstrucción' del local de la Sastrería tras el ataque de ira de la dueña. Es un hombre muy sabio y siempre es agradable conversar con el, pues a pesar de ser sabio no es para nada condescendiente. Ademas, no se llevan tantos años, lo que hace que ambos vengan de una etapa mas o menos similar."},
-      {"name": "Britniya Spearovska", "img": "assets/img/relations/britniya.png", "relation": "best-friends", "description": "Es una de las uniones que más le ha atendido, se han hecho favores mutuamente y eso al final ha creado una amistad. Serena tiene la impresión de que Brit siente cierta tensión no resuelta hacia ella, pero son simples pensamientos, aun no tiene nada en claro."},
-      {"name": "Marcus Fontaine", "img": "assets/img/relations/marcus.jpg", "relation": "friends", "description": "Su relación comenzó como simple negocios, pero la rutina ha hecho que se lleven bien con las continuas visitas de uno y otro al local del otro. En ocasiones se regalan cosas y se ayudan mutuamente, se podría decir que le aprecia bastante"},
-      {"name": "Kim Jung-Su", "img": "assets/img/relations/kim.png", "relation": "friends","description": "Se conocieron como vecinos de local. Comparte bastante la forma de pensar de Serena sobre algunas cosas de la ciudad. Es de confianza. Le ha ayudado mas de una vez a rellenar sus reservas de adhesivo, en ocasiones de formas poco... ¿éticas?"},
-      {"name": "Laurence Douglas Fink", "img": "assets/img/relations/fink.png", "relation": "friends", "description": "Pocas veces alguien reconoce el trabajo de Serena en esta ciudad. Sin duda Laurence ha hecho sonrojar a la sastre. La apoyó con su propuesta de ampliación de negocio aunque al final se viera obligado a echarse atrás con la cesión del local 05, esto provocó una de las mayores crisis de la italiana."},
-      {"name": "Valeria Fontana", "img": "assets/img/relations/image3.png", "relation": "best-friends", "description": "Desde que la conoció se han llevado genial. Descubrir que eran de la misma tierra las unió desde el principio."},
-      {"name": "Sara Leon", "img": "assets/img/relations/sara.jpg", "relation": "friends", "description": "Era su compañera de piso. Tuvieron ciertos rocecillos pues su otro compañero de piso les robó y Serena se cabreó con el mundo entero, pero tras aclararlo todo se han empezado a llevar estupendamente..."},
-      {"name": "#378", "img": "assets/img/relations/378.png", "relation": "non-stranger", "description": "Es el vort que trabaja donde Kim, es muy agradable con Serena siempre que va y parece que es un manitas. Serena estará atenta de sus capacidades"},
-      {"name": "Uno", "img": "assets/img/relations/uno.png", "relation": "friends", "description": "Si hay una agente que le ha hecho caso es Uno. Parece ser de las pocas agentes en quien puede confiar."},
-      {"name": "GOLD-6", "img": "assets/img/relations/seis.png", "relation": "non-stranger", "description": "Es una unidad que ha tratado siempre bastante bien a Serena, aunque a ella le cuesta reconocerle por el traje. Le suele hacer muchas preguntas"},
-      {"name": "Arthur Wells", "img": "assets/img/relations/image3.png", "relation": "non-stranger", "description": "Un unión que siempre ha sido agradable con ella."},
-      {"name": "Alenka Joana", "img": "assets/img/relations/image3.png", "relation": "bad", "description": "Le cae bastante mal. Siempre que se ha encontrado con ella ha habido algun problema. Una vez se puso a vender ropa a los clientes de la italiana en su propio local. Otra vez fue a pedir ropa y le pidió probarse casi todo, al final se fue sin comprar nada. Ha insinuado que Serena no abre casi nunca la tienda y ha soltado varios comentarios despectivos hacia la sastre y su negocio en multiples ocasiones"},
-      {"name": "Dongpo", "img": "assets/img/relations/dongpo.png", "relation": "bad", "description": "A Serena algo no le huele bien de este hombre. Está siempre en todos lados y siente que estafa a la gente."}
-      
+      {
+        "name": "Wilson Lawman",
+        "img": "assets/img/relations/wilson.jpg",
+        "relation": "best-friends",
+        "description": "Al final su relación era la de un unión - ciudadana / propietaria mas, pero poco a poco se fue forjando una calida relación de cercania. Es de las pocas personas que estuvo en la etapa mas oscura de Serena en C24. Le ayudó con la 'reconstrucción' del local de la Sastrería tras el ataque de ira de la dueña. Es un hombre muy sabio y siempre es agradable conversar con el, pues a pesar de ser sabio no es para nada condescendiente. Ademas, no se llevan tantos años, lo que hace que ambos vengan de una etapa mas o menos similar."
+      },
+      {
+        "name": "Britniya Spearovska",
+        "img": "assets/img/relations/britniya.png",
+        "relation": "best-friends",
+        "description": "Es una de las uniones que más le ha atendido, se han hecho favores mutuamente y eso al final ha creado una amistad. Serena tiene la impresión de que Brit siente cierta tensión no resuelta hacia ella, pero son simples pensamientos, aun no tiene nada en claro."
+      },
+      {
+        "name": "Marcus Fontaine",
+        "img": "assets/img/relations/marcus.jpg",
+        "relation": "friends",
+        "description": "Su relación comenzó como simple negocios, pero la rutina ha hecho que se lleven bien con las continuas visitas de uno y otro al local del otro. En ocasiones se regalan cosas y se ayudan mutuamente, se podría decir que le aprecia bastante"
+      },
+      {
+        "name": "Kim Jung-Su",
+        "img": "assets/img/relations/kim.png",
+        "relation": "friends",
+        "description": "Se conocieron como vecinos de local. Comparte bastante la forma de pensar de Serena sobre algunas cosas de la ciudad. Es de confianza. Le ha ayudado mas de una vez a rellenar sus reservas de adhesivo, en ocasiones de formas poco... ¿éticas?"
+      },
+      {
+        "name": "Laurence Douglas Fink",
+        "img": "assets/img/relations/fink.png",
+        "relation": "friends",
+        "description": "Pocas veces alguien reconoce el trabajo de Serena en esta ciudad. Sin duda Laurence ha hecho sonrojar a la sastre. La apoyó con su propuesta de ampliación de negocio aunque al final se viera obligado a echarse atrás con la cesión del local 05, esto provocó una de las mayores crisis de la italiana."
+      },
+      {
+        "name": "Valeria Fontana",
+        "img": "assets/img/relations/image3.png",
+        "relation": "best-friends",
+        "description": "Desde que la conoció se han llevado genial. Descubrir que eran de la misma tierra las unió desde el principio."
+      },
+      {
+        "name": "Sara Leon",
+        "img": "assets/img/relations/sara.jpg",
+        "relation": "friends",
+        "description": "Era su compañera de piso. Tuvieron ciertos rocecillos pues su otro compañero de piso les robó y Serena se cabreó con el mundo entero, pero tras aclararlo todo se han empezado a llevar estupendamente..."
+      },
+      {
+        "name": "#378",
+        "img": "assets/img/relations/378.png",
+        "relation": "non-stranger",
+        "description": "Es el vort que trabaja donde Kim, es muy agradable con Serena siempre que va y parece que es un manitas. Serena estará atenta de sus capacidades"
+      },
+      {
+        "name": "Uno",
+        "img": "assets/img/relations/uno.png",
+        "relation": "friends",
+        "description": "Si hay una agente que le ha hecho caso es Uno. Parece ser de las pocas agentes en quien puede confiar."
+      },
+      {
+        "name": "GOLD-6",
+        "img": "assets/img/relations/seis.png",
+        "relation": "non-stranger",
+        "description": "Es una unidad que ha tratado siempre bastante bien a Serena, aunque a ella le cuesta reconocerle por el traje. Le suele hacer muchas preguntas"
+      },
+      {
+        "name": "Arthur Wells",
+        "img": "assets/img/relations/image3.png",
+        "relation": "non-stranger",
+        "description": "Un unión que siempre ha sido agradable con ella."
+      },
+      {
+        "name": "Alenka Joana",
+        "img": "assets/img/relations/image3.png",
+        "relation": "bad",
+        "description": "Le cae bastante mal. Siempre que se ha encontrado con ella ha habido algun problema. Una vez se puso a vender ropa a los clientes de la italiana en su propio local. Otra vez fue a pedir ropa y le pidió probarse casi todo, al final se fue sin comprar nada. Ha insinuado que Serena no abre casi nunca la tienda y ha soltado varios comentarios despectivos hacia la sastre y su negocio en multiples ocasiones"
+      },
+      {
+        "name": "Dongpo",
+        "img": "assets/img/relations/dongpo.png",
+        "relation": "bad",
+        "description": "A Serena algo no le huele bien de este hombre. Está siempre en todos lados y siente que estafa a la gente."
+      }
     ]
   },
   {
@@ -102,27 +181,48 @@
     "sections": [
       {
         "title": "Lore",
-        "body": "Nació en una familia monomarental pero acomodada en Italia, en un municipio de no más de 100.000 habitantes de la provincia de Arezzo, en Italia. De adolescente su carácter a veces frío le jugó malas asadas impidiendole fraguar buenas y duraderas amistades. No obstante, años más tarde viajó a Milán para estudiar en la IUAD-Accademia-della-Moda donde conoció a Francesco quien sería su romance de la juventud y quien le ayudó a abrirse aún más al mundo.Finalmente logró graduarse en dicha universidad convirtiéndose oficialmente en sastre. Titulada y enamorada, volvió junto a Francesco a su ciudad natal, donde se instalaron y montaron una humilde sastrería, formando un dúo perfecto.Su madre ya mayor murió un par de años más tarde, dejando toda su herencia a su única hija.La sastrería iba viento en popa, servían a gran parte de su barrio y ganaban suficiente dinero para llevar una buena vida, laboriosa, pero buena a fin de cuentas. Unos meses antes de la guerra, Serena despertó con una llamada de los bomberos; la sastrería había ardido durante una noche en la que su marido se había quedado trabajando de noche. Al parecer una colilla y el sueño le jugaron una mala pasada.Tras varias relocalizaciones llegó a Ciudad 24 algunos días antes de que la gran oleada de refugiados de Terminal 6 llegará a ella. Estos días le permitieron unos días de paz y tranquilidad en la ciudad, lo que le permitió pensar con claridad y eso le llevó a retomar las agujas después de años sin tocarlas."
+        "body": "Nació en una familia trabajadora pero acomodada, donde vivió unos años prósperos hasta que ocurrió la gran desgracia. Mark mostró desde pequeño una generosidad sin parangón así como una inteligencia notable, llegando a destacar en la escuela durante toda su vida académica. Sensible con las causas sociales lideró y luchó diferentes movimientos sociales durante su adolescencia, poniendo especial enfoque en la lucha feminista y LGTBi+, siendo la asamblea en la que el participaba de vital importancia a la hora de la aprobación de la primer ley LGTBi del gobierno noruego. Tras la lluvia de portales y la invasión, hechos que le pillaron en su juventud, el noruego intentó continuar estimulando su afinidad política y logró acceder a una universidad en Ginebra donde cursó un doble grado de filosofía y política que logró acabar antes que cualquiera de sus compañeros y con resultados excepcionales. Tras acabar y tras el atentado a la Asamblea Federal de Ginebra, Mark fue trasladado a C18 donde desarrolló su afición por la cocina regentando un pequeño negocio local gracias al que acabó trabando buenas amistades con los uniones de dicha ciudad."
       },
       {
         "title": "Gustos y animadversiones ",
-        "body": "Sint voluptate consequat sint mollit pariatur excepteur est. Mollit duis esse velit commodo ullamco. Incididunt ea incididunt sit minim do consequat et ullamco commodo. Sunt esse esse enim sit anim amet labore pariatur commodo voluptate. Incididunt deserunt eiusmod laborum qui elit voluptate enim aliqua commodo non commodo elit. Laboris consectetur laboris mollit irure culpa cupidatat aute qui qui enim fugiat pariatur consequat do."
+        "body": "Desde pequeño ha sentido una gran afinidad tanto por la filosofía como por la política. Destaca en las habilidades manuales como son la cocina, la carpintería o la jardinería. Ama la ambientación de los años 20, el swing y la arquitectura de la época son sus grandes obsesiones. Adora el café y la música clasica, de hecho, tomó clases en su adolescencia tanto de piano como de violín. <br> Detesta la gente mentirosa, egoista e individualista."
       },
       {
         "title": "Apariencia y Personalidad",
-        "body": "Mujer adulta de expresión seria. Es alta (1,80 m. aprox.) y bastante delgada. Su pelo conforma una corta melena bastante por encima de los hombros y carece completamente de flequillo, se nota cuidado. Su mirada fría es característica por sus ojos ámbar. Es bastante morena igual que otros italianos y en comparación a otros europeos. Sus labios son bastante carnosos y su sonrisa está impoluta. Sus manos habitúan a llevar algunas tiritas o heridas por la costura aunque pese a eso, son bastante suaves. Siempre va bien vestida y su ropa cosida a mano se vería extremadamente limpia e incluso irradiaría un aroma agradable.<br><br>Es una persona algo fría y no suele forjar relaciones inicialmente. Ahora mismo su prioridad es el dinero y vivir una vida buena dentro de los límites de la nueva sociedad. Es por ello que buscará la forma de conseguirlo, sin pisar a nadie, claro está. Tiene don de gentes y suele tratar bien a todo el mundo aunque eso no signifique que la gente le caiga bien. Se le da bien tratar a la gente, incluso puede llegar a ser manipuladora para conseguir sus objetivos. Muchas veces parece actuar desinteresadamente, pero probablemente tenga un motivo. En el fondo se esconde una buena persona, aunque no todos son capaces de llegar a ella. Es algo presumida, en el sentido de que cuando algo se le da bien, le gusta hacer alarde de ello; “La mejor sastre di tutta la città”"
+        "body": "Joven de rasgos noruegos, de piel pálida así como pelo rubio platino con algunas mechas castañas. Su barbilla es bastante marcada, sus labios son carnosos y su nariz es algo respingona. Sus ojos color miel destacan por su cálida mirada y por lo expresivos que son. Su complexión es mayormente delgada, aunque tiene algunos músculos algo marcados debido al esfuerzo físico que hace diariamente en la ciudad. Es un filántropo carismático que adora estar rodeado de gente y provocar risas o echar una mano. Es leal a sus principios y aunque a veces pueda parecer que se mantiene al margen o callado, lo hace para estudiar la situación y tomar la mejor decisión, siendo así muy analítico."
       }
     ],
     "skills": [
-      {"name": "Costura", "class": "costura"},
-      {"name": "Electrónica", "class": "electronica"},
-      {"name": "Química", "class": "quimica"},
-      {"name": "Cocina", "class": "cocina"},
-      {"name": "Manufacturación", "class": "manufacturacion"}
+      {
+        "name": "Costura",
+        "class": "costura"
+      },
+      {
+        "name": "Electrónica",
+        "class": "electronica"
+      },
+      {
+        "name": "Química",
+        "class": "quimica"
+      },
+      {
+        "name": "Cocina",
+        "class": "cocina"
+      },
+      {
+        "name": "Manufacturación",
+        "class": "manufacturacion"
+      }
     ],
     "relations": [
-      {"name": "Costura", "img": "costura"},
-      {"name": "Manufacturación", "img": "manufacturacion"}
+      {
+        "name": "Costura",
+        "img": "costura"
+      },
+      {
+        "name": "Manufacturación",
+        "img": "manufacturacion"
+      }
     ]
   },
   {
@@ -171,15 +271,108 @@
       }
     ],
     "skills": [
-      {"name": "Fuerza", "class": "fuerza"},
-      {"name": "Velocidad", "class": "velocidad"},
-      {"name": "Olfato", "class": "olfato"},
-      {"name": "Vision", "class": "vision"},
-      {"name": "Inteligencia", "class": "inteligencia"}
+      {
+        "name": "Fuerza",
+        "class": "fuerza"
+      },
+      {
+        "name": "Velocidad",
+        "class": "velocidad"
+      },
+      {
+        "name": "Olfato",
+        "class": "olfato"
+      },
+      {
+        "name": "Vision",
+        "class": "vision"
+      },
+      {
+        "name": "Inteligencia",
+        "class": "inteligencia"
+      }
     ],
     "relations": [
-      {"name": "Costura", "img": "costura"},
-      {"name": "Manufacturación", "img": "manufacturacion"}
+      {
+        "name": "Costura",
+        "img": "costura"
+      },
+      {
+        "name": "Manufacturación",
+        "img": "manufacturacion"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Renaud de Ruyter (Alias Kuuno)",
+    "img": "assets/img/Portrait_cuno.webp",
+    "stats": [
+      {
+        "tittle": "Fecha de nacimiento",
+        "body": "01/09/2018"
+      },
+      {
+        "tittle": "Lugar de nacimiento",
+        "body": "Ciudad 24, antigua Ginebra."
+      },
+      {
+        "tittle": "CID",
+        "body": "#23794"
+      },
+      {
+        "tittle": "Ubicación actual",
+        "body": "C24"
+      },
+      {
+        "tittle": "Educación",
+        "body": "Ninguna."
+      },
+      {
+        "tittle": "Ocupación actual",
+        "body": "Ratero y huntador profesional."
+      }
+    ],
+    "introduction": "¡EH TU HOJALATA, DEJA DE LEER MI FICHA SI NO QUIERES QUE TE HUNTE!",
+    "sections": [
+      {
+        "title": "Lore",
+        "body": "Debido a que su padre era un importante proveedor de narcóticos y a su propia adicción, Kuuno ya tiene una buena cantidad de conocimiento práctico sobre las drogas. Prefiere las drogas que 'estimulan el cerebro', como la anfetamina y la nicotina, en lugar de las alucinógenas, y afirma que detesta el alcohol y no le agrada la Pirrolidon. También utiliza regularmente magnesio para reducir los efectos secundarios de las drogas. Se da a entender que sabía sobre la operación de laboratorio de drogas de los raver para financiar su discoteca y tuvo contacto con ellos. Kuuno afirma que utiliza drogas para mantener distraído su cerebro y evitar lidiar con sus emociones, y para poder concentrarse en sus proyectos creativos. Menciona que sufre de 'trauma de combate' debido al abuso de su padre."
+      },
+      {
+        "title": "Gustos y animadversiones ",
+        "body": "Su actitud desafiante y contracultural parece llevarlo a apreciar la música alternativa y subversiva, como el punk, el rock alternativo o el hip-hop contestatario. Estos géneros podrían reflejar su deseo de desafiar las normas establecidas y encontrar un sentido de identidad en la rebeldía. Dada su naturaleza rebelde, Kuno podría sentir afinidad por el arte urbano y el graffiti. Estas formas de expresión podrían simbolizar la creatividad que desafía las autoridades y transforma los espacios urbanos en lienzos de protesta y libertad. Aunque Kuno aparenta indiferencia, es probable que valore las conexiones genuinas con personas que entienden su complejidad. Las relaciones auténticas y las interacciones sinceras podrían ser importantes para él, ya que le permiten ser él mismo sin restricciones. Kuno podría sentirse atraído por historias y narrativas que involucren desafíos y superación. Personajes que luchan contra obstáculos y sistemas opresivos podrían resonar con su propio deseo de resistir y enfrentar circunstancias difíciles. Dada su curiosidad y actitud despreocupada, Kuno podría encontrar fascinación en la exploración de lugares abandonados. La emoción de descubrir y aventurarse en entornos desconocidos podría atraerlo, en línea con su actitud exploratoria. Su valoración de la autenticidad podría manifestarse en su preferencia por situaciones y personas que le permiten ser él mismo sin restricciones. Kuno podría sentirse atraído por aquellos que valoran la individualidad y la capacidad de cuidar de uno mismo en un mundo complejo."
+      },
+      {
+        "title": "Apariencia y personalidad",
+        "body": "Kuuno es un adolescente de aspecto desaliñado y rebelde. Suele llevar ropa desgastada y desordenada, que encaja con su actitud descuidada. Tiene una apariencia delgada y desgarbada, con cabello desordenado y, a menudo, una expresión facial desafiante o desinteresada. Sus ojos reflejan una mezcla de curiosidad y desdén, y es común verlo con gestos faciales expresivos que denotan su actitud desafiante. La ropa que usa Kuno puede variar, pero generalmente lleva una combinación de prendas gastadas y colores oscuros. Su postura y movimientos suelen ser relajados y despreocupados, como si estuviera constantemente en una actitud de no importarle nada. En términos generales, su apariencia física y vestimenta reflejan su estilo de vida turbulento y su actitud rebeldía. <br><br>Es extremadamente rebelde y desafiante, especialmente hacia las figuras de autoridad. Su lenguaje crudo y provocativo refleja esta actitud, la cual se manifiesta en su postura, gestos y en sus interacciones con otros personajes. A menudo utiliza un tono desafiante y muestra una actitud de confrontación. Aparenta despreocupación y desinterés en muchas situaciones. Su actitud relajada y aparente falta de interés puede dar la impresión de que no le importa nada. Esta actitud puede ser una forma de protección o una máscara para ocultar sus emociones más profundas y vulnerables.A pesar de su aparente indiferencia, Kuno es curioso y observador. Hace preguntas inquisitivas y capta detalles que otros podrían pasar por alto. Aunque su curiosidad puede manifestarse de manera sarcástica, demuestra que posee una aguda percepción detrás de su fachada rebelde.Muestra un nivel de desconfianza hacia los demás, siendo cauteloso en sus interacciones y reticente a abrirse. Esta desconfianza podría ser una respuesta a su difícil entorno y a las experiencias pasadas que ha vivido.A pesar de su comportamiento provocador, Kuno demuestra autoconciencia y capacidad para expresarse. Comenta sobre sus acciones y emociones de manera irónica, utilizando su actitud como una forma de afrontar problemas internos o de expresar su insatisfacción con su situación. Bajo su fachada rebelde y desafiante, Kuno revela destellos de vulnerabilidad y heridas emocionales. Algunos diálogos sugieren que su pasado incluye experiencias difíciles y relaciones familiares problemáticas. Estas experiencias pasadas podrían influir en su comportamiento y emociones, a pesar de su apariencia indiferente. En resumen, Kuno es un personaje multidimensional cuya personalidad abarca desde la rebeldía y el desafío hasta la vulnerabilidad oculta. Su comportamiento y actitudes reflejan una mezcla de experiencias pasadas, emociones profundas y formas de enfrentar el mundo que lo rodea."
+      },
+      {
+        "title": "Referencias gráficas",
+        "body": "<img src='assets\\img\\concept-kuuno-8852.jpg' class='graphic-reference' alt='Referencia gráfica de Kuuno'>"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Puntería",
+        "class": "punteria"
+      },
+      {
+        "name": "Velocidad",
+        "class": "velocidad_kuuno"
+      },
+      {
+        "name": "Fuerza",
+        "class": "fuerza_kuuno"
+      },
+      {
+        "name": "Adicción",
+        "class": "adiccion"
+      },
+      {
+        "name": "Inteligencia",
+        "class": "inteligencia_kuuno"
+      }
     ]
   }
 ]

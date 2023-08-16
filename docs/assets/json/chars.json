@@ -154,11 +154,11 @@
     "stats": [
       {
         "tittle": "Fecha de nacimiento",
-        "body": "28/12/1972"
+        "body": "29/06/xxxx"
       },
       {
         "tittle": "Lugar de nacimiento",
-        "body": "Arezzo, Italia"
+        "body": "Noruega"
       },
       {
         "tittle": "CID",
@@ -170,14 +170,14 @@
       },
       {
         "tittle": "Educación",
-        "body": "Diseño y Moda"
+        "body": "Doble grado en Ciencias Políticas y Filosofía"
       },
       {
         "tittle": "Ocupación actual",
-        "body": "Regente del Emporio de la Moda de C24"
+        "body": "Miembro de la unión de trabajadores civiles, delegado del Ministerio de comercio en la Unión y dueño del negocio Lex."
       }
     ],
-    "introduction": "Serena Meloni, la migliore sarta d'Italia. Dicono che gli angeli sono le creature più belle del mondo. Allora devo essere fortunato perché ho trovato uno. Siamo così lontani ma i nostri cuori sono sempre insieme",
+    "introduction": "Mark Fontana, filántropo apasionado. <br> ¿Quién te alegra las mañanas? Mark Fontana <br> ¿Quién lucha por tus derechos? Mark Fontana <br> ¿Quien la lía siempre parda? Mark Fontana <br> ¿Mark Fontana? Mark Fontana",
     "sections": [
       {
         "title": "Lore",
@@ -212,16 +212,6 @@
       {
         "name": "Manufacturación",
         "class": "manufacturacion"
-      }
-    ],
-    "relations": [
-      {
-        "name": "Costura",
-        "img": "costura"
-      },
-      {
-        "name": "Manufacturación",
-        "img": "manufacturacion"
       }
     ]
   },

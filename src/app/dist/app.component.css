@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   color: white;
 }
@@ -13,9 +14,9 @@ section {
 section img {
   width: 0px;
   flex-grow: 1;
-  opacity: .8;
+  opacity: 0.8;
   object-fit: cover;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 section img:hover {
@@ -26,14 +27,8 @@ section img:hover {
 }
 
 body {
-  // background-color: #1C1B22;
-  // background-image: url('../assets/img/half-life-valve-corporation-gordon-man-half-life-2-wallpaper-preview.jpg');
-  // background-size: cover;
-  // background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-
-
 }
 
 .container {
@@ -52,7 +47,7 @@ body {
 .title h1 {
   color: white;
   font-family: Roboto;
-  padding-top: 2%
+  padding-top: 2%;
 }
 
 .subtitle {
@@ -81,7 +76,6 @@ body {
 
 .profile {
   width: 40%;
-  // border: 2px solid #175E5C;
   border-right: 0;
 }
 
@@ -92,13 +86,12 @@ body {
 
 .bio {
   width: 60%;
-  // border-left: 2px solid #175E5C;
   padding: 2%;
   padding-top: 0%;
 }
 
 .bio h1 {
-  margin-top: 0%
+  margin-top: 0%;
 }
 
 .row {
@@ -162,11 +155,9 @@ body {
 
 #card-row {
   display: grid;
-  // grid-template-columns: auto auto auto;
 }
 
 #relations h1 {
-  // margin-bottom: 30px;
   color: #24F3E6;
   border-bottom: 2px solid #24F3E6;
   text-align: left;
@@ -174,25 +165,23 @@ body {
 
 #relations h2 {
   font-weight: bold;
-  // font-family: 'hm_light', sans-serif;
   font-size: 20px;
   line-height: 34px;
   text-align: left;
-  // padding: 15px 15px 0;
   text-transform: none;
   font-weight: 300;
   letter-spacing: 1px;
   display: block;
   margin: 0;
   cursor: crosshair;
-  transition: .2s;
+  transition: 0.2s;
   margin-bottom: 0;
 }
 
 #relations p {
   color: white;
   text-align: left;
-  font-family: 'hm_light', sans-serif;
+  font-family: "hm_light", sans-serif;
   font-size: 14px;
   line-height: 1.45;
   position: relative;
@@ -202,14 +191,13 @@ body {
   opacity: 1;
   transform: translate(0, 0);
   padding: 0;
-  transition: .3s opacity, .6s max-height;
+  transition: 0.3s opacity, 0.6s max-height;
   hyphens: auto;
   z-index: 2;
   margin: 0;
 }
 
 .profile-image {
-  // min-width: 100%;
   max-width: 10%;
   display: flex;
 }
@@ -219,7 +207,6 @@ body {
 }
 
 .profile-info {
-  // width: 70%;
   margin-left: 1%;
   max-width: 90%;
 }
@@ -327,14 +314,10 @@ h2.love {
   padding: 1%;
 }
 
-// Imported Styles
-
 #faq {
   margin: auto;
   padding: 0 15px;
   text-align: center;
-  // border: 2px solid #175E5C;
-  // border-top: 2px solid #175E5C;
 }
 
 section.faq {
@@ -370,7 +353,7 @@ ul li i:after {
 #faq h2 {
   font-weight: bold;
   color: #24F3E6;
-  font-family: 'hm_light', sans-serif;
+  font-family: "hm_light", sans-serif;
   font-size: 20px;
   line-height: 34px;
   text-align: left;
@@ -381,13 +364,13 @@ ul li i:after {
   display: block;
   margin: 0;
   cursor: crosshair;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 #faq p {
   color: white;
   text-align: left;
-  font-family: 'hm_light', sans-serif;
+  font-family: "hm_light", sans-serif;
   font-size: 14px;
   line-height: 1.45;
   position: relative;
@@ -399,7 +382,7 @@ ul li i:after {
   transform: translate(0, 0);
   margin-top: 5px;
   padding: 0 50px 0 15px;
-  transition: .3s opacity, .6s max-height;
+  transition: 0.3s opacity, 0.6s max-height;
   hyphens: auto;
   z-index: 2;
 }
@@ -424,7 +407,7 @@ ul li i:after {
   -webkit-tap-highlight-color: transparent;
 }
 
-#faq ul li+li {
+#faq ul li + li {
   margin-top: 15px;
 }
 
@@ -466,27 +449,25 @@ ul li i:after {
   touch-action: manipulation;
 }
 
-#faq ul li input[type=checkbox]:checked~h2 {
+#faq ul li input[type=checkbox]:checked ~ h2 {
   color: white;
 }
 
-#faq ul li input[type=checkbox]:checked~p {
+#faq ul li input[type=checkbox]:checked ~ p {
   /*margin-top: 0;*/
   max-height: 0;
-  transition: .3s;
+  transition: 0.3s;
   opacity: 0;
   /*transform: translate(0, 50%);*/
 }
 
-#faq ul li input[type=checkbox]:checked~i:before {
+#faq ul li input[type=checkbox]:checked ~ i:before {
   transform: translate(2px, 0) rotate(45deg);
 }
 
-#faq ul li input[type=checkbox]:checked~i:after {
+#faq ul li input[type=checkbox]:checked ~ i:after {
   transform: translate(-2px, 0) rotate(-45deg);
 }
-
-// Skills
 
 .skills {
   /*style the text*/
@@ -605,59 +586,42 @@ ul li i:after {
   animation: punteria 2s;
 }
 
-
-
-
 @keyframes html {
-
   /*animate html skills*/
   0% {
     width: 0%;
   }
-
   100% {
     width: 80%;
   }
 }
-
 @keyframes css {
-
   /*animate css skills*/
   0% {
     width: 0%;
   }
-
   100% {
     width: 93%;
   }
 }
-
 @keyframes javascript {
-
   /*animate javascript skills*/
   0% {
     width: 0%;
   }
-
   100% {
     width: 50%;
   }
 }
-
 @keyframes jquery {
-
   /*animate jquery skills*/
   0% {
     width: 0%;
   }
-
   100% {
     width: 30%;
   }
 }
-
-// Close
-
 .close {
   margin-left: auto;
   margin-right: 2%;
@@ -667,7 +631,7 @@ ul li i:after {
 
 .close:after {
   display: inline-block;
-  content: "\00d7";
+  content: "×";
   /* This will render the 'X' */
   font-size: xxx-large;
 }

@@ -190,6 +190,10 @@
       {
         "title": "Apariencia y Personalidad",
         "body": "Joven de rasgos noruegos, de piel pálida así como pelo rubio platino con algunas mechas castañas. Su barbilla es bastante marcada, sus labios son carnosos y su nariz es algo respingona. Sus ojos color miel destacan por su cálida mirada y por lo expresivos que son. Su complexión es mayormente delgada, aunque tiene algunos músculos algo marcados debido al esfuerzo físico que hace diariamente en la ciudad. Es un filántropo carismático que adora estar rodeado de gente y provocar risas o echar una mano. Es leal a sus principios y aunque a veces pueda parecer que se mantiene al margen o callado, lo hace para estudiar la situación y tomar la mejor decisión, siendo así muy analítico."
+      },
+      {
+        "title": "Referencias gráficas",
+        "body": "<img src='assets\\img\\fontana_reference.jpg' class='graphic-reference' alt='Referencia gráfica de Kuuno'>"
       }
     ],
     "skills": [
@@ -296,7 +300,7 @@
   {
     "id": "3",
     "name": "Renaud de Ruyter (Alias Kuuno)",
-    "img": "assets/img/Portrait_cuno.webp",
+    "img": "assets\\img\\kuuno_leonardo.jpg",
     "stats": [
       {
         "tittle": "Fecha de nacimiento",

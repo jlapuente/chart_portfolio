@@ -16,7 +16,7 @@
         alt="" (mouseover)="changeId(1)" (click)="changeMenu()">
       <img src="assets\img\DavidAlcala_portrait_of_a_rat_with_a_knife_9906eaeb-b532-441b-987c-7a99889960f0.png" alt=""
         (mouseover)="changeId(2)" (click)="changeMenu()">
-      <img src="assets\img\Portrait_cuno.webp" alt=""
+      <img src="assets\img\kuuno_leonardo.jpg" alt=""
         (mouseover)="changeId(3)" (click)="changeMenu()">
     </section>
     <div class="subtitle">
@@ -40,7 +40,7 @@
       </div>
       <div class="bio">
         <h1>{{selectedChar.name}}</h1>
-        <p>{{selectedChar.introduction}}</p>
+        <p [innerHTML]="selectedChar.introduction"></p>
         <div class="row">
           <div class="stats-container">
             <h1 class="section-title">Datos básicos</h1>

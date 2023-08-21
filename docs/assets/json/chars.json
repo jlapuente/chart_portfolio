@@ -217,6 +217,80 @@
         "name": "Manufacturación",
         "class": "manufacturacion"
       }
+    ],
+    "relations": [
+      {
+        "name": "Wilson Lawman",
+        "img": "assets/img/relations/wilson.jpg",
+        "relation": "respect",
+        "description": "Empezaron siendo compañeros en la UTC pero pronto su trabajo acabó poniendolo como jefe de todo el departamento y logró resucitar un departamento que parecia muerto. Siempre han tenido una relación muy cordial y agradable; comparten su visión del mundo y eso es algo que alguien con tantas convicciones como Mark valora mucho. Mark lo considera casi como un padre."
+      },
+      {
+        "name": "Britniya Spearovska",
+        "img": "assets/img/relations/britniya.png",
+        "relation": "friends",
+        "description": "Su compañera de la unión y ex-compañera de negocios. Pese haber estado bastante sin verse, Mark le sigue apreciando bastante. Mark considera que es una mujer muy trabajadora, por algo fue ascendida a supervisora de la unión. La unica pega que puede sacarle es que a veces no aguanta cuando se pone elitista."
+      },
+      {
+        "name": "Marcus Fontaine",
+        "img": "assets/img/relations/marcus.jpg",
+        "relation": "friends",
+        "description": "Su relación comenzó como simple negocios, pero la rutina ha hecho que se lleven extremadamente bien con las continuas visitas de uno y otro al local del otro. Se consideran tocayos y sabe que puede contar en Fontaine siempre que lo necesite. Desconoce que le ha pasado, pero siente que hay algo que ocurrió en un momento dado de la vida de Marcus en C24 que lo hizo cambiar, eso hace que no termine de fiarse de el."
+      },
+      {
+        "name": "Kim Jung-Su",
+        "img": "assets/img/relations/kim.png",
+        "relation": "friends",
+        "description": "Es un tio de confianza, alguien que al igual que Mark busca el bienestar de los ciudadanos de forma humilde y gracias a sus negocios. Su personalidad relajada y poco seria combina muy bien con Mark, quien aunque trata de guardar las formas, a veces no puede contener las carcajadas con el español."
+      },
+      {
+        "name": "Laurence Douglas Fink",
+        "img": "assets/img/relations/fink.png",
+        "relation": "respect",
+        "description": "Mark siente una gran admiración por Laurence. Cree que ha hecho un gran trabajo al cargo del ministerio del trabajo y siempre ha estado trabajando con el mano a mano para mejorar la economia de la ciudad, es por ello que ahora se siente honrado de poder trabajar el como supervisor en el ministerio, pudiendo aplicar las medidas economicas que el siempre habia soñado. Cree que es de los pocos ACC que piensan en algo mas que en si mismos."
+      },
+      {
+        "name": "Valeria Fontana",
+        "img": "assets/img/relations/image3.png",
+        "relation": "dead",
+        "description": "Su alegría era el corazón de Ciudad 24. Siempre bromeaban con ser hermanos por tener el mismo apellido. 'Tu sonrisa permanecerá en mi recuerdo, hermanita'"
+      },
+      {
+        "name": "Sara Leon",
+        "img": "assets/img/relations/sara.jpg",
+        "relation": "friends",
+        "description": "No han tenido mucha relación desde que se reformó el sector residencial, sin embargo aun mantienen una buena amistad. Su visión de la Alianza difiere mucho de la propia, sin embargo no puede juzgarla porque sabe de donde viene ese pensamiento. Le gusta mucho su escritura."
+      },
+      {
+        "name": "Sara Leon",
+        "img": "assets/img/relations/image3.png",
+        "relation": "friends",
+        "description": "No han tenido mucha relación desde que se reformó el sector residencial, sin embargo aun mantienen una buena amistad. Su visión de la Alianza difiere mucho de la propia, sin embargo no puede juzgarla porque sabe de donde viene ese pensamiento. Le gusta mucho su escritura."
+      },
+      {
+        "name": "i4.TRAUMA-475",
+        "img": "assets/img/relations/uno.png",
+        "relation": "non-stranger",
+        "description": "Una agente que por algun motivo le trata de forma realmente agradable. Mark no tiene especialmente simpatia por los agentes convencidos, pero esta no parece ser una de ellos, parece que solo buscaba una vida mejor y tampoco puede culparla."
+      },
+      {
+        "name": "Aaliss Svensson",
+        "img": "assets/img/relations/dongpo.png",
+        "relation": "non-stranger",
+        "description": "Han tenido sus rifirafes, sobretodo por el negocio, pero Mark sabe que Aalis no es mala gente, en el fondo solo quiere sobrevivir."
+      },
+      {
+        "name": "Elena Kraus",
+        "img": "assets/img/relations/image3.png",
+        "relation": "friends",
+        "description": "Mark cree que no lleva mucho en la ciudad, sin embargo desde el primer momento se llevaron bien. No termina de entender como una mujer tan interesante puede acabar saliendo con Ivan Doe. A veces le da la impresión de que le tira los trastos, pero luego se acuerda de que está saliendo con Ivan y que no puede ser posible... en principio. Tienen un baile pendiente"
+      },
+      {
+        "name": "Lauren Walker",
+        "img": "assets/img/relations/image3.png",
+        "relation": "friends",
+        "description": "Mark pensó que no volvería a ver a Lauren despues de que esta se inscribiera en protección civil, quizá por suerte no la cogieron, Mark no puede negar que eso le alegró en parte. Le encanta su personalidad divertida y extrovertida. Siempre está dispuesta a trabajar y eso lo agradece."
+      }
     ]
   },
   {

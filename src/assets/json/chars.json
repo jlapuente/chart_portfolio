@@ -193,7 +193,7 @@
       },
       {
         "title": "Referencias gráficas",
-        "body": "<img src='assets\\img\\fontana_reference.jpg' class='graphic-reference' alt='Referencia gráfica de Kuuno'>"
+        "body": " <div><img src='assets\\img\\references\\Mark\\fontana_reference.jpg' class='graphic-reference' alt='Referencia gráfica de Mark'> </div> <div> <img src='assets\\img\\references\\Mark\\5e3a2b3e19c93c8411addfd2aea0be59.png' class='graphic-reference' alt='Referencia gráfica de Mark'></div> <div> <img src='assets\\img\\references\\Mark\\Fpq3p--aUAAPYRG.jpeg' class='graphic-reference' alt='Referencia gráfica de Mark'></div> <div> <img src='assets\\img\\references\\Mark\\FqegtU_aQAA828y.jpeg' class='graphic-reference' alt='Referencia gráfica de Mark'></div> <div> <img src='assets\\img\\references\\Mark\\Fqp9E54acAASKx4.jpeg' class='graphic-reference' alt='Referencia gráfica de Mark'></div>"
       }
     ],
     "skills": [

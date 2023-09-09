@@ -198,24 +198,24 @@
     ],
     "skills": [
       {
-        "name": "Costura",
-        "class": "costura"
-      },
-      {
-        "name": "Electrónica",
-        "class": "electronica"
-      },
-      {
-        "name": "Química",
-        "class": "quimica"
-      },
-      {
         "name": "Cocina",
-        "class": "cocina"
+        "class": "cocina_mark"
+      },
+      {
+        "name": "Ordenadores y ofimática",
+        "class": "ordenadores"
       },
       {
         "name": "Manufacturación",
-        "class": "manufacturacion"
+        "class": "manufacturacion_mark"
+      },
+      {
+        "name": "Fuerza",
+        "class": "fuerza"
+      },
+      {
+        "name": "Inteligencia",
+        "class": "inteligencia_mark"
       }
     ],
     "relations": [

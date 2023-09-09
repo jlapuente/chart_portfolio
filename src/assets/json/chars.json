@@ -81,7 +81,7 @@
       },
       {
         "name": "Marcus Fontaine",
-        "img": "assets/img/relations/marcus.jpg",
+        "img": "assets/img/relations/marcus.png",
         "relation": "friends",
         "description": "Su relación comenzó como simple negocios, pero la rutina ha hecho que se lleven bien con las continuas visitas de uno y otro al local del otro. En ocasiones se regalan cosas y se ayudan mutuamente, se podría decir que le aprecia bastante"
       },
@@ -239,7 +239,7 @@
       },
       {
         "name": "Marcus Fontaine",
-        "img": "assets/img/relations/marcus.jpg",
+        "img": "assets/img/relations/marcus.png",
         "relation": "best-friends",
         "description": "Su relación comenzó como simple negocios, pero la rutina ha hecho que se lleven extremadamente bien con las continuas visitas de uno y otro al local del otro. Se consideran tocayos y sabe que puede contar en Fontaine siempre que lo necesite. Desconoce que le ha pasado, pero siente que hay algo que ocurrió en un momento dado de la vida de Marcus en C24 que lo hizo cambiar, eso hace que no termine de fiarse de el."
       },

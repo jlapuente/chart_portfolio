@@ -81,7 +81,7 @@
       },
       {
         "name": "Marcus Fontaine",
-        "img": "assets/img/relations/marcus.jpg",
+        "img": "assets/img/relations/marcus.png",
         "relation": "friends",
         "description": "Su relación comenzó como simple negocios, pero la rutina ha hecho que se lleven bien con las continuas visitas de uno y otro al local del otro. En ocasiones se regalan cosas y se ayudan mutuamente, se podría decir que le aprecia bastante"
       },
@@ -111,19 +111,19 @@
       },
       {
         "name": "#378",
-        "img": "assets/img/relations/378.png",
+        "img": "assets/img/relations/vortigaunt.jpg",
         "relation": "non-stranger",
         "description": "Es el vort que trabaja donde Kim, es muy agradable con Serena siempre que va y parece que es un manitas. Serena estará atenta de sus capacidades"
       },
       {
         "name": "Uno",
-        "img": "assets/img/relations/uno.png",
+        "img": "assets/img/relations/civilprotection.png",
         "relation": "friends",
         "description": "Si hay una agente que le ha hecho caso es Uno. Parece ser de las pocas agentes en quien puede confiar."
       },
       {
         "name": "GOLD-6",
-        "img": "assets/img/relations/seis.png",
+        "img": "assets/img/relations/civilprotection.png",
         "relation": "non-stranger",
         "description": "Es una unidad que ha tratado siempre bastante bien a Serena, aunque a ella le cuesta reconocerle por el traje. Le suele hacer muchas preguntas"
       },
@@ -189,7 +189,7 @@
       },
       {
         "title": "Apariencia y Personalidad",
-        "body": "Joven de rasgos noruegos, de piel pálida así como pelo rubio platino con algunas mechas castañas. Su barbilla es bastante marcada, sus labios son carnosos y su nariz es algo respingona. Sus ojos color miel destacan por su cálida mirada y por lo expresivos que son. Su complexión es mayormente delgada, aunque tiene algunos músculos algo marcados debido al esfuerzo físico que hace diariamente en la ciudad. Es un filántropo carismático que adora estar rodeado de gente y provocar risas o echar una mano. Es leal a sus principios y aunque a veces pueda parecer que se mantiene al margen o callado, lo hace para estudiar la situación y tomar la mejor decisión, siendo así muy analítico."
+        "body": "Joven de rasgos noruegos, de piel pálida así como pelo rubio platino con algunas mechas castañas. Su barbilla es bastante marcada, sus labios son carnosos y forman continuamente una carismática sonrisa, por otro lado, su nariz es algo respingona. Sus ojos color miel destacan por su cálida mirada y por lo expresivos que son. Su complexión es mayormente delgada, aunque tiene algunos músculos algo marcados debido al esfuerzo físico que hace diariamente en la ciudad. Es un filántropo carismático que adora estar rodeado de gente y provocar risas o echar una mano. Es leal a sus principios y aunque a veces pueda parecer que se mantiene al margen o callado, lo hace para estudiar la situación y tomar la mejor decisión, siendo así muy analítico."
       },
       {
         "title": "Referencias gráficas",
@@ -220,22 +220,40 @@
     ],
     "relations": [
       {
+        "name": "Lucky McPerro",
+        "img": "assets/img/relations/lucky.jpg",
+        "relation": "love",
+        "description": "Su perrito. La cosa que mas amaba del mundo antes de la guerra, Mark solo espera que Lucky siga vivo en algun paraje verde con otros de su especie."
+      },
+      {
         "name": "Wilson Lawman",
         "img": "assets/img/relations/wilson.jpg",
-        "relation": "respect",
-        "description": "Empezaron siendo compañeros en la UTC pero pronto su trabajo acabó poniendolo como jefe de todo el departamento y logró resucitar un departamento que parecia muerto. Siempre han tenido una relación muy cordial y agradable; comparten su visión del mundo y eso es algo que alguien con tantas convicciones como Mark valora mucho. Mark lo considera casi como un padre."
+        "relation": "mentor",
+        "description": "Empezaron siendo compañeros en la UTC pero pronto su trabajo acabó poniendolo como jefe de todo el departamento y logró resucitar una unión que parecia muerta. Siempre han tenido una relación muy cordial y agradable; comparten su visión del mundo y eso es algo que alguien con tantas convicciones como Mark valora mucho. Mark lo considera casi como un padre. Ya no solo es que compartan visión del mundo sino que sus gustos por lo clasico muchas veces también estan alineados."
+      },
+      {
+        "name": "Laurence Douglas Fink",
+        "img": "assets/img/relations/laurence.jpg",
+        "relation": "mentor",
+        "description": "Mark siente una gran admiración por Laurence. Cree que ha hecho un gran trabajo al cargo del ministerio del trabajo y siempre ha estado trabajando con el mano a mano para mejorar la economia de la ciudad, es por ello que ahora se siente honrado de poder trabajar el como supervisor en el ministerio, pudiendo aplicar las medidas economicas que el siempre habia soñado. Cree que es de los pocos ACC que piensan en algo mas que en si mismos."
+      },
+      {
+        "name": "Marcus Fontaine",
+        "img": "assets/img/relations/marcus.png",
+        "relation": "best-friends",
+        "description": "Su relación comenzó como simple negocios, pero la rutina ha hecho que se lleven extremadamente bien con las continuas visitas de uno y otro al local del otro. Se consideran tocayos y sabe que puede contar en Fontaine siempre que lo necesite. Desconoce que le ha pasado, pero siente que hay algo que ocurrió en un momento dado de la vida de Marcus en C24 que lo hizo cambiar, eso hace que no termine de fiarse de el."
+      },
+      {
+        "name": "Asen Haralampiev",
+        "img": "assets/img/relations/asen.png",
+        "relation": "best-friends",
+        "description": "Lo conoció en terminal seis, desde entonces su amistad solo ha ido en aumento. Son grandes compañeros en la UTC y Mark siente que es alguien en quien puede confiar ya que no parece tener maldad alguna. En ocasiones ha tenido que salvarle los trastos, pero no le importa, es parte de la vida en el nuevo mundo."
       },
       {
         "name": "Britniya Spearovska",
         "img": "assets/img/relations/britniya.png",
         "relation": "friends",
-        "description": "Su compañera de la unión y ex-compañera de negocios. Pese haber estado bastante sin verse, Mark le sigue apreciando bastante. Mark considera que es una mujer muy trabajadora, por algo fue ascendida a supervisora de la unión. La unica pega que puede sacarle es que a veces no aguanta cuando se pone elitista."
-      },
-      {
-        "name": "Marcus Fontaine",
-        "img": "assets/img/relations/marcus.jpg",
-        "relation": "friends",
-        "description": "Su relación comenzó como simple negocios, pero la rutina ha hecho que se lleven extremadamente bien con las continuas visitas de uno y otro al local del otro. Se consideran tocayos y sabe que puede contar en Fontaine siempre que lo necesite. Desconoce que le ha pasado, pero siente que hay algo que ocurrió en un momento dado de la vida de Marcus en C24 que lo hizo cambiar, eso hace que no termine de fiarse de el."
+        "description": "Su compañera de la unión y ex-compañera de negocios. Pese haber estado bastante sin verse, Mark le sigue apreciando bastante. Mark considera que es una mujer muy trabajadora, por algo fue ascendida a supervisora de la unión. La unica pega que puede sacarle es que a veces no aguanta cuando se pone elitista con los trabajadores."
       },
       {
         "name": "Kim Jung-Su",
@@ -244,34 +262,46 @@
         "description": "Es un tio de confianza, alguien que al igual que Mark busca el bienestar de los ciudadanos de forma humilde y gracias a sus negocios. Su personalidad relajada y poco seria combina muy bien con Mark, quien aunque trata de guardar las formas, a veces no puede contener las carcajadas con el español."
       },
       {
-        "name": "Laurence Douglas Fink",
-        "img": "assets/img/relations/fink.png",
-        "relation": "respect",
-        "description": "Mark siente una gran admiración por Laurence. Cree que ha hecho un gran trabajo al cargo del ministerio del trabajo y siempre ha estado trabajando con el mano a mano para mejorar la economia de la ciudad, es por ello que ahora se siente honrado de poder trabajar el como supervisor en el ministerio, pudiendo aplicar las medidas economicas que el siempre habia soñado. Cree que es de los pocos ACC que piensan en algo mas que en si mismos."
-      },
-      {
-        "name": "Valeria Fontana",
-        "img": "assets/img/relations/image3.png",
-        "relation": "dead",
-        "description": "Su alegría era el corazón de Ciudad 24. Siempre bromeaban con ser hermanos por tener el mismo apellido. 'Tu sonrisa permanecerá en mi recuerdo, hermanita'"
-      },
-      {
         "name": "Sara Leon",
         "img": "assets/img/relations/sara.jpg",
         "relation": "friends",
-        "description": "No han tenido mucha relación desde que se reformó el sector residencial, sin embargo aun mantienen una buena amistad. Su visión de la Alianza difiere mucho de la propia, sin embargo no puede juzgarla porque sabe de donde viene ese pensamiento. Le gusta mucho su escritura."
+        "description": "No han tenido mucha relación desde que se reformó el sector residencial, sin embargo aun mantienen una buena amistad. Su visión de la Alianza difiere mucho de la propia, sin embargo no puede juzgarla porque sabe de donde viene ese pensamiento. Le gusta mucho su escritura. Ultimamente ha tomado decisiones que no le estan gustando demasiado, parece importarle mas su lealtad ciega a la alianza que la gente que la rodea."
       },
       {
-        "name": "Sara Leon",
-        "img": "assets/img/relations/image3.png",
+        "name": "Elena Kraus",
+        "img": "assets/img/relations/elena.png",
         "relation": "friends",
-        "description": "No han tenido mucha relación desde que se reformó el sector residencial, sin embargo aun mantienen una buena amistad. Su visión de la Alianza difiere mucho de la propia, sin embargo no puede juzgarla porque sabe de donde viene ese pensamiento. Le gusta mucho su escritura."
+        "description": "Mark cree que no lleva mucho en la ciudad, sin embargo desde el primer momento se llevaron bien. No termina de entender como una mujer tan interesante puede acabar saliendo con Ivan Doe. A veces le da la impresión de que le tira los trastos, pero luego se acuerda de que está saliendo con Ivan y que no puede ser posible... en principio. Tienen un baile pendiente"
+      },
+      {
+        "name": "Luka Šutalo",
+        "img": "assets/img/relations/luka.png",
+        "relation": "friends",
+        "description": "Un chico recien llegado a la ciudad como quien dice. Desde el primer momento demostró ser todo un currante, tanto, que Mark pensó en ficharlo para el ministerio la unión, sin embargo Sara y Miranda se le adelantaron. Durante sus semanas como UIS, Mark pudo coincidir con el y su caracter agradable hizo que pudieran congeniar muy bien; casi sentia como si se conocieran de toda la vida. Durante los sucesos de la carcel Mark pudo hacer mejores migas con él, ya que por algún motivo Dubravko le tenía un gran odio."
+      },
+      {
+        "name": "Lauren Walker",
+        "img": "assets/img/relations/Lauren.png",
+        "relation": "friends",
+        "description": "Mark pensó que no volvería a ver a Lauren despues de que esta se inscribiera en protección civil, quizá por suerte no la cogieron, Mark no puede negar que eso le alegró en parte. Le encanta su personalidad divertida y extrovertida. Siempre está dispuesta a trabajar y eso lo agradece."
       },
       {
         "name": "i4.TRAUMA-475",
-        "img": "assets/img/relations/uno.png",
+        "img": "assets/img/relations/civilprotection.png",
         "relation": "non-stranger",
         "description": "Una agente que por algun motivo le trata de forma realmente agradable. Mark no tiene especialmente simpatia por los agentes convencidos, pero esta no parece ser una de ellos, parece que solo buscaba una vida mejor y tampoco puede culparla."
+      },
+      {
+        "name": "Unidad",
+        "img": "assets/img/relations/civilprotection.png",
+        "relation": "non-stranger",
+        "description": "Un agente cordial y correcto. Las veces que han coincidido por motivos de trabajo, Mark ha podido plantear sus quejas y preocupaciones sin problema alguno. La unidad ha actuado de forma profesional sin problema alguno."
+      },
+      {
+        "name": "Este titulo ha sido vandalizado (Típico de Flores)",
+        "img": "assets/img/relations/flores.jpg",
+        "relation": "non-stranger",
+        "description": "En cierto sentido se parecen mucho, ambos se toman la vida bastante poco en serio, sin embargo, a diferencia de Flores, Mark sabe cuando debe ponerse serio y mantener su compostura para dar lo mejor de si mismo en su vida profesional; Flores no parece haber pillado esto... Trabajando para una ACC y metiendo tanto la pata... A Mark le sorprende que siga vivo."
       },
       {
         "name": "Aaliss Svensson",
@@ -280,16 +310,28 @@
         "description": "Han tenido sus rifirafes, sobretodo por el negocio, pero Mark sabe que Aalis no es mala gente, en el fondo solo quiere sobrevivir."
       },
       {
-        "name": "Elena Kraus",
-        "img": "assets/img/relations/image3.png",
-        "relation": "friends",
-        "description": "Mark cree que no lleva mucho en la ciudad, sin embargo desde el primer momento se llevaron bien. No termina de entender como una mujer tan interesante puede acabar saliendo con Ivan Doe. A veces le da la impresión de que le tira los trastos, pero luego se acuerda de que está saliendo con Ivan y que no puede ser posible... en principio. Tienen un baile pendiente"
+        "name": "Sirkka Abels​",
+        "img": "assets/img/relations/Sirkka.jpg",
+        "relation": "non-stranger",
+        "description": "Es demasiado callada y seria para su gusto. Trabaja junto a él en el ministerio; hace su trabajo y eso Mark lo valora pero... nada mas."
       },
       {
-        "name": "Lauren Walker",
-        "img": "assets/img/relations/image3.png",
-        "relation": "friends",
-        "description": "Mark pensó que no volvería a ver a Lauren despues de que esta se inscribiera en protección civil, quizá por suerte no la cogieron, Mark no puede negar que eso le alegró en parte. Le encanta su personalidad divertida y extrovertida. Siempre está dispuesta a trabajar y eso lo agradece."
+        "name": "Dubravko Brzovic Depolo Zec Goic",
+        "img": "assets/img/relations/dubravko.jpg",
+        "relation": "bad",
+        "description": "Al principio no le caia demasiado mal pese a su extravaganza manifiesta, sin embargo los recientes sucesos han decantado la balanza por completo. Cree que el hecho de que fueran enviados a prisión fue en gran medida por su culpa; entre perder un concurso o enfadar al ministro mas inestable hasta la fecha, eligió lo segundo. Esa competitividad no lo llevará a ningun lado. Además, tiene una fijeza con Luka que no acaba de entender, no sabe que puede haber hecho ese nuevo ciudadano como para que Dubravko incluso pagase a una panda de gansters para que le pegaran una paliza. Cretino. Condescendiente."
+      },
+      {
+        "name": "Ivan Doe",
+        "img": "assets/img/relations/ivan.png",
+        "relation": "bad",
+        "description": "¿Como alguien puede ser tan tonto? Mark lo ha intentado, le ha dado multiples veces su voto de confianza, pero su lentitud mental en ocasiones le supera. ¿Como se pudo quedar mirando a las musarañas mientras la anomalia disparaba rayos a nuestros mejores amigos?."
+      },
+      {
+        "name": "Valeria Fontana",
+        "img": "assets/img/relations/Valeria.jpg",
+        "relation": "dead",
+        "description": "Su alegría era el corazón de Ciudad 24. Siempre bromeaban con ser hermanos por tener el mismo apellido. 'Tu sonrisa permanecerá en mi recuerdo, hermanita'"
       }
     ]
   },

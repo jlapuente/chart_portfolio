@@ -521,69 +521,83 @@ ul li i:after {
 }
 
 .electronica {
-  /*set skills and animation of jquery*/
   width: 75%;
   animation: electronica 2s;
 }
 
 .fuerza {
-  /*set skills and animation of jquery*/
   width: 70%;
   animation: fuerza 2s;
 }
 
 .velocidad {
-  /*set skills and animation of jquery*/
   width: 90%;
   animation: velocidad 2s;
 }
 
 .olfato {
-  /*set skills and animation of jquery*/
   width: 60%;
   animation: olfato 2s;
 }
 
 .vision {
-  /*set skills and animation of jquery*/
   width: 50%;
   animation: vision 2s;
 }
 
 .inteligencia {
-  /*set skills and animation of jquery*/
   width: 30%;
   animation: inteligencia 2s;
 }
 
 .inteligencia_kuuno {
-  /*set skills and animation of jquery*/
   width: 50%;
   animation: inteligencia 2s;
 }
 
 .adiccion {
-  /*set skills and animation of jquery*/
   width: 700%;
   animation: adiccion 2s;
 }
 
 .fuerza_kuuno {
-  /*set skills and animation of jquery*/
   width: 65%;
   animation: fuerza_kuuno 2s;
 }
 
 .velocidad_kuuno {
-  /*set skills and animation of jquery*/
   width: 80%;
   animation: velocidad_kuuno 2s;
 }
 
 .punteria {
-  /*set skills and animation of jquery*/
   width: 100%;
   animation: punteria 2s;
+}
+
+.cocina_mark {
+  width: 75%;
+  animation: cocina 2s;
+}
+
+.ordenadores {
+  width: 67%;
+  animation: ordenadores 2s;
+}
+
+.fuerza {
+  width: 35%;
+  animation: fuerza 2s;
+}
+
+.manufacturacion_mark {
+  width: 70%;
+  animation: manufacturacion_mark 2s;
+}
+
+.inteligencia_mark {
+  width: 85%;
+  animation: inteligencia_mark 2s;
 }
 
 @keyframes html {
